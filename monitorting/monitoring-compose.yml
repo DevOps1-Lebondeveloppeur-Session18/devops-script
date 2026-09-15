@@ -21,6 +21,6 @@ services:
     restart: unless-stopped
     expose:
       - 9100
-  volumes:
+volumes:       
   prometheus_data:
   grafana_data:
